@@ -19,3 +19,4 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           MAIL_SENDER: ${{ secrets.MAIL_SENDER }}
           MAIL_PASSWORD: ${{ secrets.MAIL_PASSWORD }}
+          GEMINI_MODEL:   gemini-2.5-flash     # ← 0단계에서 확인한 이름으로
