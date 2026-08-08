@@ -31,8 +31,7 @@ def analyze_news(news):
     {news}
     """
     
-# 기존 코드: model='gemini-1.5-flash',
-    # 수정 코드:
+    # 여기서 gemini-2.0-flash 최신 모델을 호출합니다!
     response = client.models.generate_content(
         model='gemini-2.0-flash',
         contents=prompt
