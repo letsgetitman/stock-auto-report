@@ -31,7 +31,7 @@ def analyze_news(news):
     {news}
     """
     
-    # 여기서 gemini-2.0-flash 최신 모델을 호출합니다!
+    # 최신 2.0 모델 적용 완료!
     response = client.models.generate_content(
         model='gemini-2.0-flash',
         contents=prompt
