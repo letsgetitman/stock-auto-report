@@ -31,8 +31,10 @@ def analyze_news(news):
     {news}
     """
     
+# 기존 코드: model='gemini-1.5-flash',
+    # 수정 코드:
     response = client.models.generate_content(
-        model='gemini-1.5-flash',
+        model='gemini-2.0-flash',
         contents=prompt
     )
     return response.text
