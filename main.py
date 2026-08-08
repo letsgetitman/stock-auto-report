@@ -32,8 +32,8 @@ def analyze_news(news):
     """
     
     # 모델명을 gemini-2.0-flash로 정확히 고정
-    response = client.models.generate_content(
-        model='gemini-2.0-flash',
+response = client.models.generate_content(
+        model='gemini-flash',
         contents=prompt
     )
     return response.text
